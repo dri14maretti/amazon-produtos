@@ -1,0 +1,29 @@
+{
+  "products": [
+    {
+      "name": "Caneta BIC",
+      "price": 5.89,
+      "id": 1
+    },
+    {
+      "name": "Notebook",
+      "price": 12000.89,
+      "id": 2
+    },
+    {
+      "name": "Smartwatch",
+      "price": 1500.89,
+      "id": 3
+    },
+    {
+      "name": "Troca de Lâmpada",
+      "price": 50,
+      "id": 4
+    },
+    {
+      "name": "Teste",
+      "price": 100,
+      "id": 5
+    }
+  ]
+}
