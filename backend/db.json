@@ -1,12 +1,12 @@
 {
   "products": [
     {
-      "name": "Caneta BIC",
+      "name": "Caneta BIC preta",
       "price": 5.89,
       "id": 1
     },
     {
-      "name": "Notebook",
+      "name": "Notebook Acer",
       "price": 12000.89,
       "id": 2
     },
@@ -29,6 +29,16 @@
       "name": "Teste2",
       "price": 100.15,
       "id": 6
+    },
+    {
+      "name": "Sobre a Liberdade - John Stuart Mill ",
+      "price": 28.79,
+      "id": 7
+    },
+    {
+      "name": "SmartWatch",
+      "price": 1600.3,
+      "id": 8
     }
   ]
 }
