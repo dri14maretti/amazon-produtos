@@ -1,44 +1,29 @@
 {
   "products": [
     {
-      "name": "Caneta BIC preta",
-      "price": 5.89,
+      "name": "Produto 1",
+      "price": 100,
       "id": 1
     },
     {
-      "name": "Notebook Acer",
-      "price": 12000.89,
+      "name": "Produto 2",
+      "price": 200,
       "id": 2
     },
     {
-      "name": "Smartwatch",
-      "price": 1500.89,
+      "name": "Produto 3",
+      "price": 300,
       "id": 3
     },
     {
-      "name": "Troca de Lâmpada",
-      "price": 50,
+      "name": "Produto 4",
+      "price": 400,
       "id": 4
     },
     {
-      "name": "Teste",
-      "price": 100,
+      "name": "Produto 5",
+      "price": 500,
       "id": 5
-    },
-    {
-      "name": "Teste2",
-      "price": 100.15,
-      "id": 6
-    },
-    {
-      "name": "Sobre a Liberdade - John Stuart Mill ",
-      "price": 28.79,
-      "id": 7
-    },
-    {
-      "name": "SmartWatch",
-      "price": 1600.3,
-      "id": 8
     }
   ]
 }
