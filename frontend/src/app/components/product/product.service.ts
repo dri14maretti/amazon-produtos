@@ -63,19 +63,10 @@ export class ProductService {
 	}
 
 	confer(isPrime: string): string {
-		const confereSim: boolean =
-			isPrime === 'Sim' ||
-			isPrime === 'sim' ||
-			isPrime === 'SIM' ||
-			isPrime === 's';
+		const confereSim: boolean = isPrime.toLowerCase() === 'sim';
 
 		const confereNao: boolean =
-			isPrime === 'Não' ||
-			isPrime === 'não' ||
-			isPrime === 'NÃO' ||
-			isPrime === 'n' ||
-			isPrime === 'Nao' ||
-			isPrime === 'nao';
+			isPrime.toLowerCase() === 'não' || isPrime.toLowerCase() === 'nao';
 
 		if (confereSim) return 'Sim';
 		else if (confereNao) return 'Não';

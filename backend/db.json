@@ -2,7 +2,7 @@
   "products": [
     {
       "name": "Fire TV Stick com Controle Remoto por Voz com Alexa",
-      "price": 360.05,
+      "price": 360.06,
       "id": 1,
       "isPrime": "Sim"
     },
@@ -43,14 +43,14 @@
       "isPrime": "Sim"
     },
     {
-      "name": "Kit Casa Conectada Positivo (1 Smart Controle Universal + 1 Smart Lâmpada Wi-Fi + 1 Smart Plug Wi-Fi)",
-      "price": 299.99,
+      "name": "Kit Casa Conectada Positivo (2 Smart Controle Universal + 1 Smart Lâmpada Wi-Fi + 1 Smart Plug Wi-Fi)",
+      "price": 499.99,
       "isPrime": "Sim",
       "id": 8
     },
     {
-      "name": "Assinatura Amazon Prime",
-      "price": 9.99,
+      "name": "Assinatura Kindle Unlimited",
+      "price": 19.99,
       "isPrime": "Não",
       "id": 9
     }
