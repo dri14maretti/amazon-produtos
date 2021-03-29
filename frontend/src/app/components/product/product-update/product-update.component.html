@@ -19,6 +19,15 @@
 				name="price"
 			/>
 		</mat-form-field>
+
+		<mat-form-field>
+			<input
+				[(ngModel)]="product.isPrime"
+				matInput
+				placeholder="Prime (Sim ou Não)"
+				name="isPrime"
+			/>
+		</mat-form-field>
 	</form>
 
 	<button mat-raised-button (click)="updateProduct()" color="primary">

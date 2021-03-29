@@ -10,7 +10,7 @@ import { Router } from '@angular/router';
 })
 export class ProductReadComponent implements OnInit {
 	products: Product[];
-	displayedColumns = ['id', 'name', 'price', 'action'];
+	displayedColumns = ['id', 'name', 'price', 'isPrime', 'action'];
 
 	constructor(private productService: ProductService, private router: Router) {
 		this.products = [];

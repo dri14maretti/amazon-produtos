@@ -61,4 +61,24 @@ export class ProductService {
 			catchError(e => this.errorHandler(e))
 		);
 	}
+
+	confer(isPrime: string): string {
+		const confereSim: boolean =
+			isPrime === 'Sim' ||
+			isPrime === 'sim' ||
+			isPrime === 'SIM' ||
+			isPrime === 's';
+
+		const confereNao: boolean =
+			isPrime === 'Não' ||
+			isPrime === 'não' ||
+			isPrime === 'NÃO' ||
+			isPrime === 'n' ||
+			isPrime === 'Nao' ||
+			isPrime === 'nao';
+
+		if (confereSim) return 'Sim';
+		else if (confereNao) return 'Não';
+		else return '';
+	}
 }

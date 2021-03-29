@@ -19,6 +19,7 @@ export class ProductUpdateComponent implements OnInit {
 		this.product = {
 			name: '',
 			price: NaN,
+			isPrime: '',
 		};
 	}
 
@@ -26,14 +27,21 @@ export class ProductUpdateComponent implements OnInit {
 		const id = this.route.snapshot.paramMap.get('id');
 		this.productService.readById(Number(id)).subscribe((product: Product) => {
 			this.product = product;
+			console.log(product.isPrime);
 		});
 	}
 
 	updateProduct(): void {
-		this.productService.update(this.product).subscribe(() => {
-			this.productService.showMessage('Produto editado com sucesso');
-			this.router.navigate(['/products']);
-		});
+		if (this.productService.confer(this.product.isPrime)) {
+			this.product.isPrime = this.productService.confer(this.product.isPrime);
+
+			this.productService.update(this.product).subscribe(() => {
+				this.productService.showMessage('Produto editado com sucesso');
+				this.router.navigate(['/products']);
+			});
+		} else {
+			this.productService.showMessage('Favor Digitar "Sim" ou "Não"', true);
+		}
 	}
 
 	cancel(): void {

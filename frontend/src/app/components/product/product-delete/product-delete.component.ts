@@ -19,6 +19,7 @@ export class ProductDeleteComponent implements OnInit {
 		this.product = {
 			name: '',
 			price: NaN,
+			isPrime: '',
 		};
 
 		const id = this.route.snapshot.paramMap.get('id');

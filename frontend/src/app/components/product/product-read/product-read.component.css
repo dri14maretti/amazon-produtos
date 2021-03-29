@@ -17,4 +17,5 @@ table {
 .mat-elevation-z4 img {
 	max-width: 30px;
 	align-items: center;
+	margin-right: 20px;
 }

@@ -3,37 +3,56 @@
     {
       "name": "Fire TV Stick com Controle Remoto por Voz com Alexa",
       "price": 360.05,
-      "id": 1
+      "id": 1,
+      "isPrime": "Sim"
     },
     {
       "name": "Novo Echo Dot (4ª Geração): Smart Speaker com Alexa - Cor Preta",
       "price": 379.05,
-      "id": 2
+      "id": 2,
+      "isPrime": "Sim"
     },
     {
       "name": "Kindle 10a. geração com iluminação embutida – Cor Preta",
       "price": 331.65,
-      "id": 3
+      "id": 3,
+      "isPrime": "Sim"
     },
     {
       "name": "Echo Dot (3ª Geração): Smart Speaker com Alexa - Cor Branca",
       "price": 331.55,
-      "id": 4
+      "id": 4,
+      "isPrime": "Sim"
     },
     {
       "name": "Echo Show 8 - Smart Speaker com tela de 8\" e Alexa - Cor Preta",
       "price": 899,
-      "id": 5
+      "id": 5,
+      "isPrime": "Sim"
     },
     {
       "name": "Smart Lâmpada Wi-Fi Positivo Casa Inteligente Smart Lâmpada Wi-Fi",
       "price": 82.89,
-      "id": 6
+      "id": 6,
+      "isPrime": "Sim"
     },
     {
       "name": "Echo Studio - Smart Speaker com áudio de alta fidelidade e Alexa",
       "price": 1614.05,
-      "id": 7
+      "id": 7,
+      "isPrime": "Sim"
+    },
+    {
+      "name": "Kit Casa Conectada Positivo (1 Smart Controle Universal + 1 Smart Lâmpada Wi-Fi + 1 Smart Plug Wi-Fi)",
+      "price": 299.99,
+      "isPrime": "Sim",
+      "id": 8
+    },
+    {
+      "name": "Assinatura Amazon Prime",
+      "price": 9.99,
+      "isPrime": "Não",
+      "id": 9
     }
   ]
 }

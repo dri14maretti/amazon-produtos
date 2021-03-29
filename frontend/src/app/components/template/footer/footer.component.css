@@ -6,6 +6,8 @@
 	background-color: white;
 	color: black;
 	justify-content: flex-end;
+
+	margin: 10px;
 }
 
 .footer > span {

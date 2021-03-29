@@ -12,17 +12,26 @@ export class ProductCreateComponent implements OnInit {
 	product: Product = {
 		name: '',
 		price: NaN,
+		isPrime: '',
 	};
 
 	constructor(private productService: ProductService, private router: Router) {}
 
 	ngOnInit(): void {}
 
+	isPrime: string = '';
+
 	createProduct(): void {
-		this.productService.create(this.product).subscribe(() => {
-			this.productService.showMessage('Operação executada com sucesso');
-			this.router.navigate(['/products']);
-		});
+		if (this.productService.confer(this.isPrime)) {
+			this.product.isPrime = this.productService.confer(this.isPrime);
+
+			this.productService.create(this.product).subscribe(() => {
+				this.productService.showMessage('Operação executada com sucesso');
+				this.router.navigate(['/products']);
+			});
+		} else {
+			this.productService.showMessage('Favor Digitar "Sim" ou "Não"', true);
+		}
 	}
 
 	cancel(): void {

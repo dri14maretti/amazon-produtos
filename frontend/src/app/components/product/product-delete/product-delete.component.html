@@ -23,6 +23,18 @@
 		</mat-form-field>
 	</form>
 
+	<mat-form-field>
+		<input
+			[(ngModel)]="product.isPrime"
+			matInput
+			placeholder="Prime (Sim ou Não)"
+			name="isPrime"
+			disabled
+		/>
+	</mat-form-field>
+
+	<br />
+
 	<button mat-raised-button (click)="deleteProduct()" color="warn">
 		Excluir
 	</button>
