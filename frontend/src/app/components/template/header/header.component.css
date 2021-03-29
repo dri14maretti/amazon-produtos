@@ -1,18 +1,19 @@
 .header {
 	display: flex;
 	align-items: center;
-	background-color: #e5e4e2; /*platinum color*/
-	color: black;
+	background-color: #0f1111; /*platinum color*/
+	color: #e5e4e2;
 }
 
 .header a {
 	display: flex;
 	align-items: center;
 	text-decoration: none;
+	color: #e5e4e2;
 }
 
 .logo {
-	max-height: 32px;
+	max-height: 40px;
 }
 
 .header .title-group {

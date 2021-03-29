@@ -1,29 +1,39 @@
 {
   "products": [
     {
-      "name": "Produto 1",
-      "price": 100,
+      "name": "Fire TV Stick com Controle Remoto por Voz com Alexa",
+      "price": 360.05,
       "id": 1
     },
     {
-      "name": "Produto 2",
-      "price": 200,
+      "name": "Novo Echo Dot (4ª Geração): Smart Speaker com Alexa - Cor Preta",
+      "price": 379.05,
       "id": 2
     },
     {
-      "name": "Produto 3",
-      "price": 300,
+      "name": "Kindle 10a. geração com iluminação embutida – Cor Preta",
+      "price": 331.65,
       "id": 3
     },
     {
-      "name": "Produto 4",
-      "price": 400,
+      "name": "Echo Dot (3ª Geração): Smart Speaker com Alexa - Cor Branca",
+      "price": 331.55,
       "id": 4
     },
     {
-      "name": "Produto 5",
-      "price": 500,
+      "name": "Echo Show 8 - Smart Speaker com tela de 8\" e Alexa - Cor Preta",
+      "price": 899,
       "id": 5
+    },
+    {
+      "name": "Smart Lâmpada Wi-Fi Positivo Casa Inteligente Smart Lâmpada Wi-Fi",
+      "price": 82.89,
+      "id": 6
+    },
+    {
+      "name": "Echo Studio - Smart Speaker com áudio de alta fidelidade e Alexa",
+      "price": 1614.05,
+      "id": 7
     }
   ]
 }

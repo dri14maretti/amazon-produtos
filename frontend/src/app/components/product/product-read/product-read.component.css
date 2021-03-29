@@ -13,3 +13,8 @@ table {
 .delete > i {
 	color: #e35e6b;
 }
+
+.mat-elevation-z4 img {
+	max-width: 30px;
+	align-items: center;
+}
